@@ -1,0 +1,14 @@
+--- a/packaging/assets/init/rethinkdb	2013-08-14 17:26:55.000000000 -0700
++++ b/packaging/assets/init/rethinkdb	2013-09-09 10:08:07.885104160 -0700
+@@ -103,6 +103,11 @@
+     exit
+ fi
+ 
++if [ ! -d /var/run/rethinkdb/ ]; then
++    mkdir /var/run/rethinkdb
++    chown rethinkdb: /var/run/rethinkdb
++fi
++
+ for rtdbconffile in "$rtdbconfigdir"/instances.d/*.conf ;
+ do
+     if ! conf_read "$rtdbconffile" conf; then

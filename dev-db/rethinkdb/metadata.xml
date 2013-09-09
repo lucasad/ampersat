@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>lucas@dohring.tk</email>
+	<name>Lucas A. Dohring</name>
+</maintainer>
+<upstream>
+	<remote-id type="github">rethinkdb/rethinkdb</remote-id>
+</upstream>
+</pkgmetadata>
