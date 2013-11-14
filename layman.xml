@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+<repo quality="experimental" status="unofficial">
+    <name>ampersat</name>
+        <description>Lucas' misc overlay</description>
+        <homepage>http://github.com/nykac/ampersat</homepage>
+    <owner>
+                <email>lucas@dohring.tk</email>
+                <name>Lucas A. Dohring</name>
+    </owner>
+        <source type="git">git://github.com/nykac/ampersat.git</source>
+    <feed>http://github.com/feeds/nykac/commits/ampersat/master</feed>
+</repo>
+</repositories>
